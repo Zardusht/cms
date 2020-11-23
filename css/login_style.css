@@ -195,7 +195,9 @@
         cursor: pointer;
         transition: 0.5s;
     }
-    
+    .color {
+         background-color: #8b181b;
+     }
     /* .btn:hover {
         background-image: linear-gradient(90deg, #b94a4e 10%, #fff 100%, #b94a4e 10%);
     } */

@@ -114,11 +114,8 @@
      .wrapper {
          width: 100%;
          height: 100%;
-         /* background: rgb(221, 216, 216); */
-         /* overflow: hidden; */
          display: flex;
          justify-content: space-between;
-         /* flex-wrap: wrap; */
          font-family: Montserrat, Helvetica, sans-serif;
      }
      
@@ -248,10 +245,8 @@
      
      .jumbotron {
          width: 100%;
-         /* height: 100%; */
          height: calc(100% - 132px);
          background: rgb(221, 216, 216);
-         /* background: red; */
      }
      
      .footer {
@@ -278,7 +273,6 @@
      .header-profile-card img {
          width: 40px;
          border-radius: 50%;
-         /* padding: 5px; */
      }
      
      .header-profile-card::before {
@@ -354,7 +348,6 @@
      }
      
      .dropdowns ul li {
-         /* display: block; */
          width: 100%;
          height: 40px;
          text-align: left;

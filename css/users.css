@@ -64,8 +64,8 @@ tr {
     padding: 0;
     border: 0;
     outline: 0;
-    /*font-size: 100%;
-vertical-align: baseline;*/
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
 html,
@@ -127,7 +127,7 @@ textarea {
     border-top: 0px solid #8b1818;
     border-bottom: 0px solid #8b1818;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 30px 50px;
     display: block;
     height: 250px;
     width: 250px;
@@ -135,7 +135,6 @@ textarea {
     background-size: cover;
     overflow: hidden;
     box-shadow: 0 0 100px 10px #fff;
-    /* transition: all ease 0.3s; */
 }
 
 .create-card:hover {
@@ -155,17 +154,15 @@ textarea {
     border-top: 0px solid #8b1818;
     border-bottom: 0px solid #8b1818;
     border-radius: 50%;
-    margin: 0 auto;
     display: block;
     height: 250px;
     width: 250px;
-    /* background-color: #8b1818; */
+    margin: 30px 50px;
     background: url(https://s-media-cache-ak0.pinimg.com/736x/3a/1f/02/3a1f02c10700daa80655a302c5a27acf.jpg);
     background-size: cover;
     overflow: hidden;
     box-shadow: 0 0 100px 10px #fff;
     transition: all ease 0.3s;
-    /* mix-blend-mode: overlay; */
 }
 
 .profile-card:hover {
@@ -216,7 +213,6 @@ textarea {
 
 .profile-card .profile-card-header span {
     border-radius: 20px;
-    /* border: 2px white solid; */
     width: 150px;
     height: 30px;
     display: block;
@@ -227,8 +223,6 @@ textarea {
     font-size: 14px;
     background: red;
     text-transform: capitalize;
-    /* opacity: 1; */
-    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.42) 49%, rgba(0, 0, 0, 0.61) 100%); */
 }
 
 .profile-social-links {
@@ -288,7 +282,6 @@ textarea {
     width: 95%;
     height: 95%;
     background-color: white;
-    /* opacity: 0.5; */
     background: rgb(221, 216, 216);
     position: absolute;
     top: 50%;
@@ -310,7 +303,6 @@ textarea {
     right: -15px;
     cursor: pointer;
     transition: all 2s ease-in;
-    /* transform: translate(25%, -25%); */
 }
 
 .cancel:hover {

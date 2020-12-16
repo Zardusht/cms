@@ -124,7 +124,6 @@
         top: -10%;
         left: 45%;
         transform: translateY(-50%);
-        /* display: none; */
         z-index: 1;
         transition: 2s ease-in-out;
     }
@@ -135,7 +134,6 @@
         transform: translate(-50%, -50%);
         left: 175%;
         width: 50%;
-        /* transition: 2s 0.7s ease-in-out; */
         display: grid;
         z-index: 0;
         transition: 2s ease-in-out;
@@ -195,6 +193,7 @@
         cursor: pointer;
         transition: 0.5s;
     }
+    
     .color {
         width: 150px;
         background-color: #992024;
@@ -208,10 +207,7 @@
         margin: 50px 0 15px;
         cursor: pointer;
         transition: 0.5s;
-     }
-    /* .btn:hover {
-        background-image: linear-gradient(90deg, #b94a4e 10%, #fff 100%, #b94a4e 10%);
-    } */
+    }
     
     .title {
         font-size: 50px;
@@ -375,7 +371,6 @@
     .container.sign-in-mode .form_panel {
         left: 75%;
     }
-    
     /* @media only screen and (max-width: 1750px) and (min-width: 1600px) {
         .container::before {
             width: 2000px;
@@ -532,6 +527,7 @@
             margin: 4px;
         }
     } */
+    
     @media only screen and (max-width: 1920px) and (min-width: 1800px) {
         .container::before {
             width: 2000px;
@@ -548,6 +544,7 @@
             margin-top: 40px;
         }
     }
+    
     @media only screen and (max-width: 1800px) and (min-width: 1700px) {
         .container::before {
             width: 2000px;
@@ -567,6 +564,7 @@
             margin-top: 40px;
         }
     }
+    
     @media only screen and (max-width: 1700px) and (min-width: 1600px) {
         .container::before {
             width: 2000px;
@@ -592,6 +590,7 @@
             width: 700px;
         }
     }
+    
     @media only screen and (max-width: 1600px) and (min-width: 1500px) {
         .container::before {
             width: 2000px;
@@ -612,7 +611,6 @@
         }
         .left_panel_2 .content h3 {
             font-size: 27.5px;
-            
         }
         .left_panel_2 .content p {
             font-size: 15.5px;
@@ -623,8 +621,8 @@
         .right_panel img {
             width: 600px;
         }
-        
     }
+    
     @media only screen and (max-width: 1500px) and (min-width: 1400px) {
         .container::before {
             width: 2000px;
@@ -645,7 +643,6 @@
         }
         .left_panel_2 .content h3 {
             font-size: 24px;
-            
         }
         .left_panel_2 .content p {
             font-size: 14px;
@@ -657,6 +654,7 @@
             width: 590px;
         }
     }
+    
     @media only screen and (max-width: 1400px) and (min-width: 1300px) {
         .container::before {
             width: 2000px;
@@ -680,7 +678,6 @@
         }
         .left_panel_2 .content h3 {
             font-size: 20px;
-            
         }
         .left_panel_2 .content p {
             font-size: 13.5px;
@@ -689,6 +686,7 @@
             width: 580px;
         }
     }
+    
     @media only screen and (max-width: 1300px) and (min-width: 1200px) {
         .container::before {
             width: 2000px;
@@ -712,7 +710,6 @@
         }
         .left_panel_2 .content h3 {
             font-size: 20px;
-            
         }
         .left_panel_2 .content p {
             font-size: 12.5px;
@@ -724,6 +721,7 @@
             width: 560px;
         }
     }
+    
     @media only screen and (max-width: 1200px) and (min-width: 1100px) {
         .container::before {
             width: 2000px;
@@ -747,7 +745,6 @@
         }
         .left_panel_2 .content h3 {
             font-size: 20px;
-            
         }
         .left_panel_2 .content p {
             font-size: 11.5px;
@@ -756,7 +753,6 @@
             width: 540px;
         }
     }
-    
     
     @media only screen and (max-width: 1100px) and (min-width: 1000px) {
         .container::before {
@@ -784,7 +780,6 @@
         }
         .left_panel_2 .content h3 {
             font-size: 18.5px;
-            
         }
         .left_panel_2 .content p {
             font-size: 10.5px;
@@ -792,8 +787,8 @@
         .right_panel img {
             width: 480px;
         }
-
     }
+    
     @media only screen and (max-width: 1000px) and (min-width: 900px) {
         .container::before {
             width: 2000px;
@@ -824,7 +819,6 @@
         }
         .left_panel_2 .content h3 {
             font-size: 16.5px;
-            
         }
         .left_panel_2 .content p {
             font-size: 9.5px;
@@ -833,10 +827,11 @@
             width: 420px;
         }
     }
+    
     @media (max-width: 900px) {
-         .container {
-          min-height: 900px;
-          height: 100vh;
+        .container {
+            min-height: 900px;
+            height: 100vh;
         }
         .container:before {
             width: 1500px;
@@ -847,154 +842,61 @@
             right: initial;
             top: initial;
             transition: 2s ease-in-out;
-          }
-          .right_panel img {
+        }
+        .right_panel img {
             width: 350px;
             position: absolute;
             top: 20%;
             right: 10%;
-          }
-          .logo {
-              display: none;
-          }
-         .right_panel h3,
-         .right_panel p {
-             display: none;
-         }
-         .right_panel button {
-             display: none;
-         }
-         .form_panel {
-             position: absolute;
-             top: 60%;
-             left: 50%;
-             width: 100%;
-             height: 100vh;
-             z-index: 4;
-         }
-         .title {
-             font-size: 22px;
-             margin-bottom: 20px;
-         }
-         .profile_image {
-             width: 100px;
-             height: 100px;
-         }
-         .btn {
-             margin-top: 20px;
-         }
-         .input-field {
-             margin-top: 5px;
-         }
-         .container.sign-in-mode::before {
+        }
+        .logo {
             display: none;
         }
-        
+        .right_panel h3,
+        .right_panel p {
+            display: none;
+        }
+        .right_panel button {
+            display: none;
+        }
+        .form_panel {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            width: 100%;
+            height: 100vh;
+            z-index: 4;
+        }
+        .title {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        .profile_image {
+            width: 100px;
+            height: 100px;
+        }
+        .btn {
+            margin-top: 20px;
+        }
+        .input-field {
+            margin-top: 5px;
+        }
+        .container.sign-in-mode::before {
+            display: none;
+        }
         .container.sign-in-mode .logo {
             display: none;
         }
-        
         .container.sign-in-mode .right_panel {
             display: none;
         }
-        
         .container.sign-in-mode .left_panel_2 {
             display: none;
         }
-        
         .container.sign-in-mode .form_panel {
             display: none;
         }
         .left_panel_2 img {
             display: none;
         }
-        /*.signin-signup {
-          width: 100%;
-          top: 95%;
-          transform: translate(-50%, -100%);
-          transition: 1s 0.8s ease-in-out;
-        }
-      
-        .signin-signup,
-        .container.sign-up-mode .signin-signup {
-          left: 50%;
-        }
-      
-        .panels-container {
-          grid-template-columns: 1fr;
-          grid-template-rows: 1fr 2fr 1fr;
-        }
-      
-        .panel {
-          flex-direction: row;
-          justify-content: space-around;
-          align-items: center;
-          padding: 2.5rem 8%;
-          grid-column: 1 / 2;
-        }
-      
-        .right-panel {
-          grid-row: 3 / 4;
-        }
-      
-        .left-panel {
-          grid-row: 1 / 2;
-        }
-      
-        .image {
-          width: 200px;
-          transition: transform 0.9s ease-in-out;
-          transition-delay: 0.6s;
-        }
-      
-        .panel .content {
-          padding-right: 15%;
-          transition: transform 0.9s ease-in-out;
-          transition-delay: 0.8s;
-        }
-      
-        .panel h3 {
-          font-size: 1.2rem;
-        }
-      
-        .panel p {
-          font-size: 0.7rem;
-          padding: 0.5rem 0;
-        }
-      
-        .btn.transparent {
-          width: 110px;
-          height: 35px;
-          font-size: 0.7rem;
-        }
-      
-        
-      
-        .container.sign-up-mode:before {
-          transform: translate(-50%, 100%);
-          bottom: 32%;
-          right: initial;
-        }
-      
-        .container.sign-up-mode .left-panel .image,
-        .container.sign-up-mode .left-panel .content {
-          transform: translateY(-300px);
-        }
-      
-        .container.sign-up-mode .right-panel .image,
-        .container.sign-up-mode .right-panel .content {
-          transform: translateY(0px);
-        }
-      
-        .right-panel .image,
-        .right-panel .content {
-          transform: translateY(300px);
-        }
-      
-        .container.sign-up-mode .signin-signup {
-          top: 5%;
-          transform: translate(-50%, 0);
-        } */
-      }
-    
-    
+    }

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/dahsboard.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/users.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="shortcut icon" href="../img/favicon/favicon.png" type="image/x-icon">
+    <link rel="icon" href="../img/favicon/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/03990c771c.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <title>Cash Management System - Expences Page</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <aside id="left-panel" class="left-panel">
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <a href="dashboard.html">
+                            <img src="../img/K_logo_original.png" alt="" width="80px">
+                        </a>
+                    </li>
+
+                    <li class=" active">
+                        <a href="dashboard.html"><i class="fas fa-home"></i>Home</a>
+                    </li>
+                    <li>
+                        <a href="cash.html"><i class="fas fa-cash-register"></i>Cash</a>
+                    </li>
+                    <li>
+                        <a href="incomes.html"><i class="fas fa-money-bill-wave"></i>Incomes</a>
+                    </li>
+                    <li>
+                        <a href="expences.html"><i class="fas fa-coins"></i>Expences</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-telegram-plane"></i>Chats</a>
+                    </li>
+                    <li>
+                        <a href="users.html"><i class="fas fa-user-alt"></i>Users</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-cogs"></i>Setting</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fas fa-power-off"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="container">
+            <header class="header">
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Search ..." class="form-control">
+                        <div class="input-search">
+                            <span>
+                                <i class="fas fa-search-dollar"></i>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+                <ul>
+                    <li class="inbox">
+                        <a href="#">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                        <span class="numbers">4</span>
+                        <div class="messages hidden">
+                            <h4>You have <span>4</span>new mails</h4>
+                            <a href="" class="message_body">
+                                <span><img src="../img/1.jpeg" alt="" class="message_photo"></span>
+                                <div class="message_text">
+                                    <span>Name Surname</span>
+                                    <span>15 minutes Ago</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </a>
+                            <a href="" class="message_body">
+                                <span><img src="../img/1.jpeg" alt="" class="message_photo"></span>
+                                <div class="message_text">
+                                    <span>Name Surname</span>
+                                    <span>Just Now</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </a>
+                            <a href="" class="message_body">
+                                <span><img src="../img/1.jpeg" alt="" class="message_photo"></span>
+                                <div class="message_text">
+                                    <span>Name Surname</span>
+                                    <span>Just Now</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </a>
+                            <a href="" class="message_body">
+                                <span><img src="../img/1.jpeg" alt="" class="message_photo"></span>
+                                <div class="message_text">
+                                    <span>Name Surname</span>
+                                    <span>17 minutes Ago</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </a>
+                            <a href="" class="message_body">
+                                <span><img src="../img/1.jpeg" alt="" class="message_photo"></span>
+                                <div class="message_text">
+                                    <span>Name Surname</span>
+                                    <span>20 minutes Ago</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                </div>
+                            </a>
+                            <p class="more">
+                                <a href="#">See All mails</a>
+                            </p>
+                        </div>
+
+                    </li>
+                    <li class="notification toogle">
+                        <a href="#">
+                            <i class="fas fa-bell"></i>
+                        </a>
+                        <span class="numbers">8</span>
+                        <div class=" notifications hidden">
+                            <h4>You have <span>4</span> new notification</h4>
+                            <div class="status confirmed">
+                                <i class="fas fa-check"></i>
+                                <p>The expences number 1122 approved</p>
+                            </div>
+                            <div class="status paided">
+                                <i class="fas fa-hand-holding-usd"></i>
+                                <p>The expences number 1123 paided</p>
+                            </div>
+                            <div class="status accepted">
+                                <i class="fas fa-money-bill-alt"></i>
+                                <p>The Incomes number 1124 accepted</p>
+                            </div>
+                            <div class="status rejected">
+                                <i class="far fa-times-circle"></i>
+                                <p>The Expences Number 1128 rejected</p>
+                            </div>
+                            <div class="status rejected">
+                                <i class="far fa-times-circle"></i>
+                                <p>The Expences Number 1128 rejected</p>
+                            </div>
+                            <p class="more">
+                                <a href="">See All notification</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="header-profile-card toogle">
+                        <a href="#">
+                            <img src="../img/1.jpeg" alt="">
+                        </a>
+                        <div class="dropdowns hidden">
+                            <h4>Name Surname</h4>
+                            <p>Position</p>
+                            <hr>
+                            <ul>
+                                <li><i class="far fa-user-circle"></i> <span><a href="profile.html">My Profile</a></span></li>
+                                <li><i class="far fa-edit"></i> <span>Edit Profile</span></li>
+                                <li><i class="fa fa-envelope"></i> <span>Inbox</span></li>
+                                <li><i class="fas fa-user-cog"></i> <span>Settings</span></li>
+                                <li><i class="fas fa-info-circle"></i> <span>Help</span></li>
+                                <li><i class="fas fa-power-off"></i> <span>Logout</span></li>
+
+                            </ul>
+                        </div>
+
+                    </li>
+
+                </ul>
+            </header>
+            <div class="jumbotron">
+                <div class="expences-jumbotron">
+                    <div class="order">
+                        <h3>Expences - <span>100</span> AZN</h3>
+                        <button class="button" id="create_expences">Create New</button>
+                    </div>
+                    <div class="search">
+                        <div class="filter-string">
+                            <div class="search-field search-field-2">
+                                <input type="text" placeholder="Search for Category, Description, Vendor, etc" class="search-control">
+                                <div class="search-input">
+                                    <span>
+                                        <i class="fas fa-search-dollar"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="expences_category">
+                                <select name="" id="">
+                                    <option value="all" selected disabled>Category</option>
+                                    <option value="translators">Translators</option>
+                                    <option value="nottary">Nottary</option>
+                                    <option value="project_expences">Project Expences</option>
+                                    <option value="office_expences">Office Expences</option>
+                                    <option value="promo_expences">Promo Expences</option>
+                                    <option value="entertainment_expences">Entertainment Expences</option>
+                                    <option value="teambuilding_expences">Teambuilding Expences</option>
+                                </select>
+                            </div>
+                            <div class="expences_status">
+                                <select name="" id="">
+                                    <option value="all" selected disabled>Status</option>
+                                    <option value="Confirmed">Confirmed</option>
+                                    <option value="process">In Process</option>
+                                </select>
+                            </div>
+                            <div class="expences_user">
+                                <select name="" id="">
+                                    <option value="all" selected disabled>Filter by User</option>
+                                    <option value="User_1">User 1</option>
+                                    <option value="User_2">User 2</option>
+                                    <option value="User_3">User 3</option>
+                                    <option value="User_4">User 4</option>
+                                </select>
+                            </div>
+                            <button class="drowpdown_scrool"><i class="fas fa-angle-double-up"></i></button>
+                            <button type="submit" class="search-button">Filter</button>
+                        </div>
+                        <div class="filter-string">
+                            <div class="datepicker">
+                                <div class="date-wrapper">
+                                    <label for="datepicker-start">Start:</label>
+                                    <input type="date" name="experience-start" id="datepicker-start" class="input-text" placeholder="dd/mm/yyyy">
+                                </div>
+                                <div class="date-wrapper">
+                                    <label for="datepicker-end">End:</label>
+                                    <input type="date" name="experience-end" id="datepicker-end" class="input-text" placeholder="dd/mm/yyyy">
+                                </div>
+                            </div>
+                            <button class="export-button"><img src="../img/download.svg" alt="">Download</button>
+                            <button class="export-button"><img src="../img/printing.svg" alt="">Print</button>
+                            <button class="export-button"><img src="../img/floppy-disk.svg" alt="">Send To</button>
+                        </div>
+                    </div>
+                    <div class="expences-requests">
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Username</th>
+                                    <th>Description</th>
+                                    <th>Category</th>
+                                    <th>Project Code</th>
+                                    <th>Amount</th>
+                                    <th>Type</th>
+                                    <th>Status</th>
+                                    <th>Created Date</th>
+                                    <th>Edit</th>
+                                    <th>Del</th>
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+                                    <td>1</td>
+                                    <td>
+                                        <div class="name-area"><img src="../img/1.jpeg" alt="">
+                                            <div>Zardusht Fatullayev<br><span>Project Manager</span></div>
+                                        </div>
+                                    </td>
+                                    <td>Isiq Pulu</td>
+                                    <td>Office Expences</td>
+                                    <td>None</td>
+                                    <td>12,50 <span>AZN</span></td>
+                                    <td>Expences</td>
+                                    <td><span class="danger">In Process</span></td>
+                                    <td>01.01.2021</td>
+                                    <td>
+                                        <a href="#"><img src="../img/edit.svg" alt="" class="edit_expences"></a>
+                                    </td>
+                                    <td>
+                                        <a href="#"><img src="../img/trash.svg" alt="" class="delete-expences"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>
+                                        <div class="name-area"><img src="../img/1.jpeg" alt="">
+                                            <div>Zardusht Fatullayev<br><span>Project Manager</span></div>
+                                        </div>
+                                    </td>
+                                    <td>Isiq Pulu</td>
+                                    <td>Office Expences</td>
+                                    <td>None</td>
+                                    <td>12,50 <span>AZN</span></td>
+                                    <td>Expences</td>
+                                    <td><span class="success">Confirmed</span></td>
+                                    <td>01.01.2021</td>
+                                    <td>
+                                        <a href="#"><img src="../img/edit.svg" alt="" class="edit_expences"></a>
+                                    </td>
+                                    <td>
+                                        <a href="#"><img src="../img/trash.svg" alt="" class="delete-expences"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>
+                                        <div class="name-area"><img src="../img/1.jpeg" alt="">
+                                            <div>Zardusht Fatullayev<br><span>Project Manager</span></div>
+                                        </div>
+                                    </td>
+                                    <td>Isiq Pulu</td>
+                                    <td>Office Expences</td>
+                                    <td>None</td>
+                                    <td>12,50 <span>AZN</span></td>
+                                    <td>Expences</td>
+                                    <td><span class="danger">In Process</span></td>
+                                    <td>01.01.2021</td>
+                                    <td>
+                                        <a href="#"><img src="../img/edit.svg" alt="" class="edit_expences"></a>
+                                    </td>
+                                    <td>
+                                        <a href="#"><img src="../img/trash.svg" alt="" class="delete-expences"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+
+                                    <td>4</td>
+                                    <td>
+                                        <div class="name-area"><img src="../img/1.jpeg" alt="">
+                                            <div>Zardusht Fatullayev<br><span>Project Manager</span></div>
+                                        </div>
+                                    </td>
+                                    <td>Isiq Pulu</td>
+                                    <td>Office Expences</td>
+                                    <td>None</td>
+                                    <td>12,50 <span>AZN</span></td>
+                                    <td>Expences</td>
+                                    <td><span class="danger">In Process</span></td>
+                                    <td>01.01.2021</td>
+                                    <td>
+                                        <a href="#"><img src="../img/edit.svg" alt="" class="edit_expences"></a>
+                                    </td>
+                                    <td>
+                                        <a href="#"><img src="../img/trash.svg" alt="" class="delete-expences"></a>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="expences-jumbotron-create-popup">
+                        <img src="../img/cancel.png" alt="">
+                        <form action="" method="POST">
+                            <input type="text" name="" id="" placeholder="Describe Request">
+                            <div>
+                                <select name="" id="">
+                                    <option value="all" selected disabled>Choose Category</option>
+                                    <option value="translators">Translators</option>
+                                    <option value="nottary">Nottary</option>
+                                    <option value="project_expences">Project Expences</option>
+                                    <option value="office_expences">Office Expences</option>
+                                    <option value="promo_expences">Promo Expences</option>
+                                    <option value="entertainment_expences">Entertainment Expences</option>
+                                    <option value="teambuilding_expences">Teambuilding Expences</option>
+                                </select>
+                            </div>
+                            <input type="number" name="" id="" value="Null" min="0" placeholder="Enter the Project Code">
+                            <input type="number" name="" id="" min="0.1" step="1" placeholder="Amount">
+                            <button type="submit">Create</button>
+                        </form>
+                    </div>
+                    <div class="expences-jumbotron-edit-popup" style="display: none;">
+                        <img src="../img/cancel.png" alt="">
+                        <form action="" method="POST">
+                            <input type="text" name="" id="" placeholder="Describe Request">
+                            <div>
+                                <select name="" id="">
+                                    <option value="all" selected disabled>Choose Category</option>
+                                    <option value="translators">Translators</option>
+                                    <option value="nottary">Nottary</option>
+                                    <option value="project_expences">Project Expences</option>
+                                    <option value="office_expences">Office Expences</option>
+                                    <option value="promo_expences">Promo Expences</option>
+                                    <option value="entertainment_expences">Entertainment Expences</option>
+                                    <option value="teambuilding_expences">Teambuilding Expences</option>
+                                </select>
+                            </div>
+                            <input type="number" name="" id="" value="Null" min="0" placeholder="Enter the Project Code">
+                            <input type="number" name="" id="" min="0.1" step="1" placeholder="Amount">
+                            <button type="submit">Create</button>
+                        </form>
+                    </div>
+                    <div class="warning-popup">
+                        <p></p>
+                        <div class="yes transition">Yes</div>
+                        <div class="no transition">No</div>
+                    </div>
+                    <div class="comment-popup">
+                        <img src="../img/cancel.png" alt="">
+                        <form action="" method="POST">
+                            <div class="comment-popup-sender">From: <span> User 1</span></div>
+                            <div class="comment-popup-receiver">To: <span> User 2</span></div>
+                            <div class="comment-popup-subject">Incomes Request Number {ID}</div>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <button type="submit" class="button-success">Send</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <footer class="footer"></footer>
+        </div>
+    </div>
+    <script src="../js/main.js">
+    </script>
+</body>
+
+</html>
